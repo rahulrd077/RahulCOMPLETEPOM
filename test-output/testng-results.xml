@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="333488" started-at="2019-08-08T10:15:03Z" finished-at="2019-08-08T10:20:36Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="333488" started-at="2019-08-08T10:15:03Z" finished-at="2019-08-08T10:20:36Z">
+      <class name="com.Xyphias.QA.RahulCompletePOM.ContactsPageTest">
+        <test-method status="PASS" signature="initiate()[pri:0, instance:com.Xyphias.QA.RahulCompletePOM.ContactsPageTest@77cd7a0]" name="initiate" is-config="true" duration-ms="134830" started-at="2019-08-08T10:15:04Z" finished-at="2019-08-08T10:17:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method status="PASS" signature="validateNewContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.Xyphias.QA.RahulCompletePOM.ContactsPageTest@77cd7a0]" name="validateNewContactTest" duration-ms="25379" started-at="2019-08-08T10:17:19Z" data-provider="TestDatatesting" finished-at="2019-08-08T10:17:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rahul]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Das]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[TorryHarris]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNewContactTest -->
+        <test-method status="PASS" signature="initiate()[pri:0, instance:com.Xyphias.QA.RahulCompletePOM.ContactsPageTest@77cd7a0]" name="initiate" is-config="true" duration-ms="146248" started-at="2019-08-08T10:17:44Z" finished-at="2019-08-08T10:20:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method status="PASS" signature="validateNewContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.Xyphias.QA.RahulCompletePOM.ContactsPageTest@77cd7a0]" name="validateNewContactTest" duration-ms="25818" started-at="2019-08-08T10:20:10Z" data-provider="TestDatatesting" finished-at="2019-08-08T10:20:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tony]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Christian]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Paul]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HCL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNewContactTest -->
+      </class> <!-- com.Xyphias.QA.RahulCompletePOM.ContactsPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <test thread-count="5" name="Test(failed)" parallel="methods">
+    <classes>
+      <class name="com.Xyphias.QA.RahulCompletePOM.HomePageTest">
+        <methods>
+          <include name="VerifyUserNameLabelTest"/>
+          <include name="TearDown"/>
+          <include name="verifycontactlinkTest"/>
+          <include name="HomePageTitleTest"/>
+          <include name="HomePageInit"/>
+        </methods>
+      </class> <!-- com.Xyphias.QA.RahulCompletePOM.HomePageTest -->
+      <class name="com.Xyphias.QA.RahulCompletePOM.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="ValidateLoginPageTitleTest"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.Xyphias.QA.RahulCompletePOM.LoginPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
